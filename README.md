@@ -21,4 +21,4 @@ SUMMARY: Due to resource limitations, we were required to find a creative and in
 
 ---
 
-### Note: Please download code file or visit colab file located [here](https://colab.research.google.com/drive/1h4QGD_gicP77keDdxGj_pRei-dbSfxBI?usp=sharing): - do not view the code directly on github as it is not formatted properly.
+### Note: Please download code file or visit colab file located [here](https://colab.research.google.com/drive/1h4QGD_gicP77keDdxGj_pRei-dbSfxBI?usp=sharing) - do not view the code directly on github as it is not formatted properly.

@@ -12,6 +12,7 @@ The Spotify Million Playlist Dataset Challenge, hosted on AIcrowd, was to create
 This page consists of the report (with a hypothetical business case) aswell as the project code.
 
 Link to code: [here](https://colab.research.google.com/drive/1h4QGD_gicP77keDdxGj_pRei-dbSfxBI?usp=sharing)
+
 ---
 
 SUMMARY: Due to resource limitations, we were required to find a creative and innovative solution to accomplish this task, and did so with a unique blend of mathematical concepts. First, we constructed a co-occurrence matrix of every song in the database, which practically documented how often songs appeared together. Then utilizing a property of an item-to-item collaborative filtering system - similar to what is used on Netflix - we constructed the cosine similarity matrix for every song utilizing the co-occurrence matrix. Next, we constructed a feedforward neural network for multi-class classification - using the sparse-categorical crossentropy loss function. However, the loss function was testing the ability of the model to predict the top song, which is not really what we were after. Instead, we tuned the parameters utilizing the top 500 and top 100 song accuracy scores in the test data - which fits more practically with the purpose of the challenge. The top 5 performing neural networks are graphed below, with the best performing model achieving outstanding performance of 96% top 500 accuracy and 90% top 100 accuracy.
